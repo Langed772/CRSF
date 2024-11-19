@@ -1,0 +1,96 @@
+/* Reset des marges et des rembourrages pour une meilleure cohérence */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 0 15px;
+}
+
+.navbar-link {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar-link:hover {
+    color: #ddd;
+}
+
+/* Styles pour le contenu principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.u_ser1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.u_ser2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.com_user1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.com_user2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.supp1{
+display: flex;
+justify-content: center;
+text-align: center;
+}
